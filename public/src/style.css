@@ -1,0 +1,23 @@
+.space-manual {
+  height: 5rem;
+}
+.space-btn {
+  width: auto;
+  height: 15px;
+}
+.card-head {
+  text-align: center;
+}
+.manual-change {
+  margin-left: 3.5rem;
+}
+.small-help {
+  padding: 1.7rem 0rem;
+}
+.card img {
+  width: 180px;
+  height: auto;
+}
+.table-section {
+  padding-top: 5rem;
+}

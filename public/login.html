@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mirisssa Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 space-manual"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-5 offset">
+          <div class="card-group manual-change">
+            <div class="card">
+              <div class="card-head">
+              <img src="./img/login.png" class="card-img-top" alt="..." id="account-dp">
+
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sign in</h5>
+                <div class="form-cls">
+                  <form method="post">
+                    <div class="form-group">
+                      <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="small-help">
+                      <a id="emailHelp" href="#" class="form-text text-muted">Forgot Password?</a>
+                    </div>
+                    <div class="btn-cls">
+                      <a href="./register.html" class="btn btn-light">Create an Account</a>
+                      <button type="button"
+                       name="signIn" 
+                       id="signIn" 
+                       class="btn btn-outline-dark float-right">Sign in</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./src/login.js"></script>
+  </body>
+</html>
