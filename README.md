@@ -13,4 +13,5 @@ Backend:
 * nedb (for Database)
 * express.js
 
-### To run the web-store in your browser, open public directory -> index.html or run node index.js in your terminal 
+### To run the web-store in your browser, open public directory -> index.html 
+### or run node index.js in your terminal 
