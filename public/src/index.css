@@ -159,7 +159,9 @@ small.small-cls {
 .contact-us {
   padding-top: 5px;
 }
-
+.img-2 {
+  overflow: hidden;
+}
 .header-footer {
   font-weight: 500;
 }
@@ -188,6 +190,7 @@ small.small-cls {
   position: absolute;
   left: 2px;
   overflow: hidden;
+  z-index: 999;
 }
 .img-1 img {
   transform-origin: 0 0;
@@ -238,6 +241,14 @@ img.image-far {
   padding-top: 8px;
   width: 384px;
   float: right;
+}
+.img-2 img {
+  transform-origin: 0 0;
+  transition: transform 0.25s, visibility 0.25s ease-in;
+  z-index: -1;
+}
+.img-2 img:hover {
+  transform: scale(1.1);
 }
 .story-board {
   color: var(--outer-layout);
@@ -444,4 +455,13 @@ li.img-preview-static {
 }
 .sec-end {
   padding-top: 4.5rem;
+}
+.play-btn {
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  left: 40%;
+  font-size: 4rem;
+  color: var(--inner-layout);
+  font-weight: lighter;
 }
